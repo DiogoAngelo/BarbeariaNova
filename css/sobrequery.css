@@ -1,0 +1,15 @@
+@media (min-width: 440px) {
+    .sobre h2 {
+        font-size: 2.5rem;
+    }
+    .beneficios h2 {
+        font-size: 2rem;
+    }
+    .beneficios .lista-beneficios {
+        font-size: 1.3rem;
+        line-height: 3rem;
+    }
+    .video h2 {
+        font-size: 2rem;
+    }
+}

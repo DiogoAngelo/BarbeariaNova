@@ -1,0 +1,101 @@
+body {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-bg {
+    background-color: #333;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: #fdfdfd;
+    height: 3rem;
+    padding: .8rem 0 0 .8rem;
+}
+
+.imagem-sobre {
+    background: url('../img/banner4.png');
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.sobre {
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+.sobre h2 {
+    font-size: 1.5rem;
+}
+
+.sobre p {
+    font-size: .9rem;
+    text-align: justify;
+    margin: 1rem 0;
+    color: #555;
+}
+
+strong {
+    color: #000;
+}
+
+i {
+    font-style: italic;
+}
+
+.beneficios {
+    position: relative;
+}
+
+.beneficios::before {
+    position: absolute;
+    content: "";
+    background: rgba(2, 2, 2, 0.6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.beneficios img {
+    width: 100%;
+}
+
+.beneficios .lista-beneficios {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.beneficios h2 {
+    font-size: 1.5rem;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    background-repeat: no-repeat;
+    background-size: 80% 1px;
+    background-position: bottom center;
+    padding: .2rem;
+    margin-bottom: 1rem;
+}
+
+iframe {
+    margin-bottom: -10px;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 560px;
+}
+
+.video h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
