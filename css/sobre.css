@@ -6,14 +6,6 @@ body {
     background-color: #333;
 }
 
-header h1 {
-    font-size: 1.8rem;
-    font-weight: 200;
-    color: #fdfdfd;
-    height: 3rem;
-    padding: .8rem 0 0 .8rem;
-}
-
 .imagem-sobre {
     background: url('../img/banner4.png');
     height: 20rem;
@@ -105,4 +97,19 @@ i {
 .video iframe {
     width: 100%;
     max-width: 560px;
+}
+
+@media(min-width: 360px) {
+    .sobre {
+        padding: 2rem;
+    }
+}
+
+@media(min-width: 660px) {
+    .sobre h2 {
+        font-size: 2rem;
+    }
+    .sobre p {
+        font-size: 1.05rem;
+    }
 }
