@@ -8,12 +8,13 @@ body {
 
 figcaption {
     color: #333;
-    width: 280px;
+    width: 235px;
     margin: 0 auto;
 }
 
 .descricao-servicos {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -74,6 +75,16 @@ footer {
     }
     .banner3 {
         object-position: 20% 0;
+    }
+}
+
+@media(min-width: 700px) {
+    .descricao-servicos {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .servicos {
+        margin: 0 1rem;
     }
 }
 
