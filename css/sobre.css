@@ -36,10 +36,6 @@ strong {
     color: #000;
 }
 
-i {
-    font-style: italic;
-}
-
 .baixo {
     display: flex;
     flex-wrap: wrap;

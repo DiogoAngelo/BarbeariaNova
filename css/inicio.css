@@ -6,6 +6,16 @@ body {
     background-color: #333;
 }
 
+.darken::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
 figcaption {
     color: #333;
     width: 235px;
@@ -17,6 +27,7 @@ figcaption {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 2rem 0;
 }
 
 .servicos {
@@ -60,6 +71,16 @@ footer {
     padding: 0 1rem;
 }
 
+@media(min-width: 700px) {
+    .descricao-servicos {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .servicos {
+        margin: 0 1rem;
+    }
+}
+
 @media(max-width: 767px) {
     .banner1,
     .banner2,
@@ -78,21 +99,26 @@ footer {
     }
 }
 
-@media(min-width: 700px) {
-    .descricao-servicos {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .servicos {
-        margin: 0 1rem;
-    }
-}
-
 @media(min-width: 768px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        object-fit: cover;
+        height: 520px;
+    }
     .banner2 {
-        object-position: 50% 10%;
+        object-position: 0 10%;
     }
     .banner3 {
         object-position: 50% 10%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .banner1,
+    .banner2,
+    .banner3 {
+        object-fit: cover;
+        height: 640px;
     }
 }

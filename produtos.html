@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <title>NovaBarbearia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top">
+            <a class="navbar-brand fonte-titulo texto-cor-especial" id="cor-titulo" href="#">BarbeariaNova</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">início<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <div class="darken">
+                <img class="img-produtos" src="img/hair-barber.jpg" alt="produtos baebearia">
+                <figcaption class="nossos-produtos">Nossos Produtos</figcaption>
+            </div>
+        </figure>
+        <div class="paineis">
+
+            <section class="painel">
+                <div class="painel-novidades">
+                    <h3>Cabelo & Barba</h3>
+                    <ul class="cabelo-barba">
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/after-shave.png">
+                                <figcaption>Pós-Barba M<br>R$ 49,40</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/balm.jpeg">
+                                <figcaption>Malbec Barba<br>R$ 89,90</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/oleo-barba-concentrado.png">
+                                <figcaption>Óleo Barba Layrite<br>R$ 35,99</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/oleo-barba.png">
+                                <figcaption>Óleo Apothecary<br>R$ 29,50</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/oleo2-barba.png">
+                                <figcaption>Óleo para afeitar<br>R$ 19,40</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/pomada-barba.jpg">
+                                <figcaption>Pomada Barba Rubra<br>R$ 69,00</figcaption>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="painel-mais-vendidos">
+                    <h3>Utensílios</h3>
+                    <ul class="utensilios">
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/ki-tesouras.png">
+                                <figcaption>Par tesouras CAL<br>R$ 149,50</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/kit-corte.jpg">
+                                <figcaption>Estojo Pentes e Tesouras<br>R$ 215,10</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/img1.jpg">
+                                <figcaption>Pente Barba Grossa<br>R$ 19,90</figcaption>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/pente2.jpg">
+                                <figcaption>Pente Barba Fina<br>R$ 19,90</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/tesoura-fio-nav.jpg">
+                                <figcaption>Tesoura Fio Lâmina<br>R$ 89,90</figcaption>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/produtos/Tesoura-profissional.png">
+                                <figcaption>Tesoura BlackKnight<br>R$ 189,90</figcaption>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="">
+            <a href="#" class="text-light text-decoration-none"></a>
+            <a href="#" class="text-decoration-none"><i class="icones text-light fab fa-facebook-square"></i></a>
+            <a href="#" class="text-decoration-none"><i class="icones text-light fab fa-instagram"></i></a>
+            <a href="#" class="text-decoration-none"><i class="icones text-light fab fa-twitter-square"></i></a>
+        </div>
+    </footer>
+
+    <!-- modal contato -->
+
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Encontre-nos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p>contato@barbearianova.com.br</p>
+                        <p>(12) 99132-7450 - (12) 3642-5478</p>
+                        <p>Rua Dr. João Augusto Menezes, 204 - centro</p>
+                        <p>Pindamonhangaba - SP</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
