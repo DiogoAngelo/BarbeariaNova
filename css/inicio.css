@@ -20,6 +20,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 100;
+    animation: fade-in 6s;
 }
 
 .darken-inicio::before {
@@ -70,10 +71,13 @@ strong {
     width: 100%;
     top: 0;
     left: 0;
+    border-radius: 50%;
 }
 
 .beneficios img {
     width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000;
 }
 
 .beneficios .lista-beneficios {
@@ -106,7 +110,11 @@ strong {
 .video iframe {
     width: 100%;
     max-width: 560px;
+    box-shadow: 0 0 10px #000;
 }
+
+
+/* ----- MEDIA QUERIES ------ */
 
 @media(min-width: 360px) {
     .sobre {
@@ -117,6 +125,7 @@ strong {
 @media(min-width: 660px) {
     .sobre h2 {
         font-size: 2rem;
+        padding-bottom: 1.5rem;
     }
     .sobre p {
         font-size: 1.05rem;
@@ -128,5 +137,23 @@ strong {
     }
     .darken-inicio::before {
         height: 680px;
+    }
+    .titulo-principal {
+        font-size: 3rem;
+    }
+}
+
+@media(min-width: 1300px) {
+    .titulo-principal {
+        font-size: 4rem;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
