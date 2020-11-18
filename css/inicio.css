@@ -40,6 +40,10 @@ body {
     color: #333;
 }
 
+.sobre h2 {
+    font-weight: 100;
+}
+
 .sobre p {
     font-size: .9rem;
     text-align: justify;

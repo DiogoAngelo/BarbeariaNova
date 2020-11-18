@@ -94,13 +94,13 @@ footer {
     .banner2,
     .banner3 {
         object-fit: cover;
-        height: 400px;
+        height: 520px;
     }
     .banner1 {
         object-position: 90% 50%;
     }
     .banner2 {
-        object-position: 0 50%;
+        object-position: 10% 90%;
     }
     .banner3 {
         object-position: 20% 0;
@@ -136,6 +136,6 @@ footer {
     .banner2,
     .banner3 {
         object-fit: cover;
-        height: 640px;
+        height: 680px;
     }
 }
